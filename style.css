@@ -1,0 +1,128 @@
+.centr{
+   
+    text-align: center;
+    
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+}
+
+
+.tooltip .tooltiptextleft {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: -5px;
+    right: 105%;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptextleft {
+    visibility: visible;
+}
+
+
+
+
+.tooltip .tooltiptexttop {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    
+    width: 120px;
+    
+    left: 50%;
+    margin-left: -60px;
+ 
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptexttop {
+    visibility: visible;
+}
+
+
+
+.tooltip .tooltiptextbottom {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    
+    width: 120px;
+    
+    left: 50%;
+    margin-left: -60px;
+ 
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptextbottom {
+    visibility: visible;
+}
+
+
+
+
+.tooltip .tooltiptextright {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+   
+    top: -5px;
+    left: 105%;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptextright {
+    visibility: visible;
+}
+
+
